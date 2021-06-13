@@ -5,7 +5,7 @@ A web crawler with a python scrapy framework.
 
 ## Installation
 
-Use the package manager [pip] to install all dependecises scrapy framework which are added in requirement.txt.
+Use the package manager [pip] to install all dependencies scrapy framework which is added in requirement.txt.
 
 ```bash
 python -m venv
@@ -30,6 +30,8 @@ scrapy crawl shopclues_product_info -a domain='url of a particular product whose
 
 
 ```
+## Result
+After successful scrapping data will be saved in 'CSV file format inside the 'Data' folder, in the parent directory.
 
 ## Contributing
 Pull requests are welcome. For changes, please open an issue first to discuss what you would like to 
